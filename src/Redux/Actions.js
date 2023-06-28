@@ -14,7 +14,7 @@ export function getalldollars() {
           dispatch({ type: GET_DOLAR, payload: response.data });
         })
         .catch(() => {
-          alert("clasificados no encontrados");
+          alert("error");
         });
     };
   }
