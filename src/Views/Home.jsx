@@ -187,7 +187,7 @@ let ultimoValorVariacion = 0;
         </div>
         <button
           type="submit"
-          className="ml-4 bg-green-400 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+          className=" mt-5 md:ml-4 md:mt-0 bg-green-400 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
         >
           Suscribirse
         </button>
