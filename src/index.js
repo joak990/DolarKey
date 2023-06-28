@@ -5,7 +5,11 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import store from "./Redux/Index"
 import { Provider } from "react-redux";
+import axios from 'axios'
+axios.defaults.baseURL = "https://dolarkeyback-production.up.railway.app/"
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 root.render(
   <BrowserRouter>
    <Provider store={store}>

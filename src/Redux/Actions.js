@@ -8,7 +8,7 @@ const url500="https://www.mercadopago.com.ar/checkout/v1/payment/redirect/c1a901
 export function getalldollars() {
     return function (dispatch) {
       axios
-        .get("http://localhost:3001")
+        .get("/")
         .then((response) => {
             
           dispatch({ type: GET_DOLAR, payload: response.data });
@@ -25,7 +25,7 @@ export function getalldollars() {
     return async function () {
       try {
       
-        const response = await axios.post("http://localhost:3001/newsletter", payload);
+        const response = await axios.post("/newsletter", payload);
         
        if(response.data.sucess === true){
        return Swal.fire({
