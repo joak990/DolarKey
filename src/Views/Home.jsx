@@ -168,7 +168,7 @@ return (
         {errors.nombre && <p className="text-red-500 text-sm mt-1">{errors.nombre}</p>}
       </div>
       <div className="flex flex-col sm:flex-row sm:items-center mt-4 sm:mt-0">
-        <label htmlFor="email" className="text-lg font-bold mb-2 ml-4">
+        <label htmlFor="email" className="text-lg font-bold mb-2 ml-5">
           Email:
         </label>
         <input
@@ -184,7 +184,7 @@ return (
       </div>
       <button
         type="submit"
-        className="mt-5 bg-green-400 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+        className=" mt-4 sm:mt-0 bg-green-400 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
       >
         Suscribirse
       </button>
